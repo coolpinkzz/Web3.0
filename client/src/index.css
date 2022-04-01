@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: fantasy;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+   background-color:hsla(265,72%,44%,1);
+background-image:
+radial-gradient(at 37% 39%, hsla(239,55%,47%,1) 0px, transparent 50%),
+radial-gradient(at 64% 7%, hsla(340,86%,68%,1) 0px, transparent 50%);
+}
+
+.gradient-bg-services {
+  background-color:#0f0e13;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 100%, hsla(225,39%,25%,1) 0, transparent 50%);
+}
+
+.gradient-bg-transactions {
+  background-color:hsla(265,72%,44%,1);
+background-image:
+radial-gradient(at 37% 39%, hsla(239,55%,47%,1) 0px, transparent 50%),
+radial-gradient(at 64% 7%, hsla(340,86%,68%,1) 0px, transparent 50%);
+}
+
+.gradient-bg-footer {
+  background-color: #0f0e13;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.connectbtn{
+ background-color:hsla(265,72%,44%,1);
+background-image:
+radial-gradient(at 37% 39%, hsla(239,55%,47%,1) 0px, transparent 50%),
+radial-gradient(at 64% 7%, hsla(340,86%,68%,1) 0px, transparent 50%);
+color: whitesmoke;
+font-size: large;
+font-weight: bolder;
+padding: 10px;
+border-radius: 10px;
+}
+
+.eth-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-color:#a099ff;
+  background-image: 
+    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
+    radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
+    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
+    radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
+    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
+    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-input::placeholder{
+  color: white;
+  opacity: 0.7;
+}
+.txn-parent{
+  background-color:hsla(0,100%,50%,1);
+background-image:
+radial-gradient(at 68% 3%, hsla(235,79%,62%,1) 0px, transparent 50%),
+radial-gradient(at 38% 61%, hsla(247,72%,76%,1) 0px, transparent 50%),
+radial-gradient(at 43% 1%, hsla(355,73%,68%,1) 0px, transparent 50%),
+radial-gradient(at 9% 66%, hsla(292,92%,71%,1) 0px, transparent 50%),
+radial-gradient(at 42% 37%, hsla(64,65%,71%,1) 0px, transparent 50%),
+radial-gradient(at 89% 7%, hsla(303,99%,71%,1) 0px, transparent 50%),
+radial-gradient(at 44% 15%, hsla(144,90%,78%,1) 0px, transparent 50%);
+}
+.timestamp{
+  /* background-color: #0f0e13; */
+}
+.timestamp p {
+  color: #ffffff;
+}
+.txnCard *{
+  margin: 0;
+}
+.txnCard{
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 576) {
+  .eth-card{
+    width: auto;
+    height: 150px;
+  }
+}
